@@ -3,7 +3,7 @@
 #
 git init
 git add .
-git commit -m "v.1.0 | 03/06/2026 15:52"
+git commit -m "v.1.0 | 03/06/2026 15:53"
 git branch -M main
 git remote add origin https://github.com/luisamos/nominatim-peru.git
 git push -u origin main
@@ -11,3 +11,9 @@ git push -u origin main
 git pull origin main
 
 git -c http.sslVerify=false pull origin main
+
+
+python3 buscar.py \
+  --input DATOS.xlsx \
+  --output DATOS_FINAL_02062026.xlsx \
+  --url http://localhost
