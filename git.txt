@@ -3,7 +3,7 @@
 #
 git init
 git add .
-git commit -m "v.1.0 | 03/06/2026 15:02"
+git commit -m "v.1.0 | 03/06/2026 15:52"
 git branch -M main
 git remote add origin https://github.com/luisamos/nominatim-peru.git
 git push -u origin main
